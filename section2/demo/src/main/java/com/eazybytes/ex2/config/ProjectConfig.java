@@ -4,6 +4,7 @@ import com.eazybytes.ex2.beans.Vehicle;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Description;
+import org.springframework.context.annotation.Primary;
 
 /*
 Spring @Configuration annotation is part of the spring core framework.
@@ -26,6 +27,8 @@ public class ProjectConfig {
         return veh;
     }
 
+
+    @Primary
     @Bean(value="audiVehicle")
     Vehicle vehicle2() {
         var veh = new Vehicle();
