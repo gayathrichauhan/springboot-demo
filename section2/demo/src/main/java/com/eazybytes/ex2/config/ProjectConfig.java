@@ -43,6 +43,10 @@ public class ProjectConfig {
         veh.setName("Ferrari");
         return veh;
     }
+    @Bean
+    String hello() {
+        return "Hello Spring!";
+    }
 
 
 }
