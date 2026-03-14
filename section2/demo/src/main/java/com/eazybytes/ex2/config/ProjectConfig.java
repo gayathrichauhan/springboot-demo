@@ -1,10 +1,7 @@
 package com.eazybytes.ex2.config;
 
 import com.eazybytes.ex2.beans.Vehicle;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Description;
-import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.*;
 
 /*
 Spring @Configuration annotation is part of the spring core framework.
@@ -13,6 +10,7 @@ methods. So Spring container can process the class and generate Spring Beans
 to be used in the application.
  */
 @Configuration
+
 public class ProjectConfig {
 
     /*
@@ -20,7 +18,7 @@ public class ProjectConfig {
    this method when it initializes its context and adds the returned
    value to the context.
      */
-    @Bean(name="hondaVehicle")
+    @Bean(name="hondaVehicle",initMethod = "initialize")
     Vehicle vehicle1() {
         var veh = new Vehicle();
         veh.setName("Audi");

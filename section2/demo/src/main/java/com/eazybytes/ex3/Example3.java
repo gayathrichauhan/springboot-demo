@@ -13,5 +13,6 @@ public class Example3 {
         var veh=context.getBean(Vehicle.class);
         System.out.println("Vehicle name for Spring Context is:"+veh.getName());
         veh.sayhello();
+        context.close();
         }
     }
