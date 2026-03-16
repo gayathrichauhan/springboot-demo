@@ -6,23 +6,22 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Car {
-    public Car(){
-        System.out.println("Car bean created");
-    }
-
     private String name;
 
+    private final Engine engine;
+
+
+    @Autowired
+    public Car(Engine engine) {
+        this.engine = engine;
+        System.out.println("Car bean created");
+    }
     public Engine getEngine() {
         return engine;
     }
-    @Autowired
-    public void setEngine(Engine engine) {
-        this.engine = engine;
-    }
+
 
     //@Autowired
-    private Engine engine;
-
     public String getName() {
         return name;
     }
