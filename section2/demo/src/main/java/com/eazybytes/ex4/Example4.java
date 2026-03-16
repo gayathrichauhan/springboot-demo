@@ -1,5 +1,6 @@
 package com.eazybytes.ex4;
 
+import com.eazybytes.ex4.beans.Car;
 import com.eazybytes.ex4.beans.Person;
 import com.eazybytes.ex4.beans.Vehicle;
 import com.eazybytes.ex4.config.ProjectConfig;
@@ -17,5 +18,13 @@ public class Example4 {
         System.out.println("Vehicle name from Spring Context is:"+vehicle.getName());
         System.out.println("Vehicle that person owns is:"+person.getVehicle());
 
-        }
+        var car=context.getBean(Car.class);
+        var engine=context.getBean(Vehicle.class);
+        System.out.println("Car name from Spring Context is:"+car.getName());
+        System.out.println("Engine name from Spring Context is:"+engine.getName());
+        System.out.println("engine that car owns is:"+car.getEngine());
+
+
+
+    }
     }
