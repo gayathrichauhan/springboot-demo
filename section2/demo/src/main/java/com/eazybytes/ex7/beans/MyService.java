@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 @Scope(BeanDefinition.SCOPE_SINGLETON)
 public class MyService {
     public MyService(){
+
         System.out.println("My Service Bean is created");
     }
 }
