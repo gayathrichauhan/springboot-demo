@@ -1,9 +1,6 @@
 package com.eazybytes.backend;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
@@ -21,7 +18,8 @@ public class UserController {
                 + pathVariablesMap.get("addressId");
     }
     @GetMapping("/search")
-    public String searchUserWithQueryparams(){
-        return "fetched user with query params";
+    public String searchUserWithQueryparams(@RequestParam String name, @RequestParam String gender){
+
+        return "fetched user with query params"+name+"and gender"+gender;
     }
 }

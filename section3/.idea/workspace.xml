@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee9e86e0-6d3d-4e0a-9238-d1d8b9c2ede1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
