@@ -4,16 +4,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 @RestController
 public class UserController {
 
-    @GetMapping("/api/dummy/users/{userId}/posts/{postId}")
+    @GetMapping("/api/dummy/users/{userId}/address/{addressId}")
     public String searchUserPostWithMultiPathVariable(
-            @PathVariable Long userId,
-            @PathVariable Long postId) {
+            @PathVariable Map<String, String> pathVariablesMap) {
 
-        return "fetched user with id: " + userId + " postId: " + postId;
+        return "fetched user with id: "
+                + pathVariablesMap.get("userId")
+                + " and address id: "
+                + pathVariablesMap.get("addressId");
     }
-
-
 }
