@@ -22,4 +22,11 @@ public class UserController {
 
         return "fetched user with query params"+name+"and gender"+gender;
     }
+
+
+    @GetMapping("/headers")
+    public String readRequestHeaders(@RequestHeader("User-Agent") String userAgent,
+                                     @RequestHeader(name="User-Location",required = false,defaultValue = "Hyderabad") String userLocation){
+        return "received"+userAgent+""+userLocation;
+    }
 }
