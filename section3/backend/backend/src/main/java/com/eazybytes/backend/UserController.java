@@ -1,5 +1,6 @@
 package com.eazybytes.backend;
 
+import com.eazybytes.backend.dto.UserDto;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -28,5 +29,9 @@ public class UserController {
     public String readRequestHeaders(@RequestHeader("User-Agent") String userAgent,
                                      @RequestHeader(name="User-Location",required = false,defaultValue = "Hyderabad") String userLocation){
         return "received"+userAgent+""+userLocation;
+    }
+    @PostMapping
+    public String createUser(@RequestBody UserDto userDto) {
+        return "Created User with the data: " + userDto.toString();
     }
 }
