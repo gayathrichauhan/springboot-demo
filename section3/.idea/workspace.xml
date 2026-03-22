@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee9e86e0-6d3d-4e0a-9238-d1d8b9c2ede1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,5 +66,16 @@
       <updated>1773801919688</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/controller/LegacyVersionController.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
