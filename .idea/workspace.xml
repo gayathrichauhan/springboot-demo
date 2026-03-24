@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee9e86e0-6d3d-4e0a-9238-d1d8b9c2ede1" name="Changes" comment="" />
+    <list default="true" id="492bd48f-fd15-4497-a7d2-66ae37aff6c7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,67 +13,57 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
-        <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="3B6G539EP5rWadt5sekknYozWuo" />
+  <component name="ProjectId" id="3AtLkVL0NiORWTbsJ0DEeXGkSuB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.BackendApplication.executor": "Run",
+    "Application.Example2.executor": "Debug",
+    "Application.Example3.executor": "Debug",
+    "Application.Example4.executor": "Debug",
+    "Application.Example5.executor": "Debug",
+    "Application.Example7.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Gayatri Chouhan/OneDrive/Desktop/springboot-demo/section3",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
-    ]
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.eazybytes.backend" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gayatri Chouhan\OneDrive\Desktop\springboot-demo\section2\demo\src\main\java\com\eazybytes\ex5\beans" />
+      <recent name="C:\Users\Gayatri Chouhan\OneDrive\Desktop\springboot-demo\section2\demo\src\main\java\com\eazybytes\ex4" />
+      <recent name="C:\Users\Gayatri Chouhan\OneDrive\Desktop\springboot-demo\section2\demo\src\main\java\com\eazybytes\ex3" />
+      <recent name="C:\Users\Gayatri Chouhan\OneDrive\Desktop\springboot-demo\section2\demo\src\main\java\com\eazybytes\ex2" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.eazybytes.backend" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eazybytes.ex6.config" />
+      <recent name="com.eazybytes.ex5.beans" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ee9e86e0-6d3d-4e0a-9238-d1d8b9c2ede1" name="Changes" comment="" />
-      <created>1773801919688</created>
+      <changelist id="492bd48f-fd15-4497-a7d2-66ae37aff6c7" name="Changes" comment="" />
+      <created>1773407065326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1773801919688</updated>
+      <updated>1773407065326</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/backend/backend/src/main/java/com/eazybytes/backend/controller/LegacyVersionController.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
